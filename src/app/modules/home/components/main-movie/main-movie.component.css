@@ -1,0 +1,6 @@
+.img-cont {
+    max-height: 500px;
+    background-color: blueviolet;
+}
+
+@media screen and ( max-width: 768px) {}

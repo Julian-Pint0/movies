@@ -1,0 +1,39 @@
+input {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    background-color: grey;
+    border-color: transparent;
+    color: white;
+    padding-left: 4px;
+    padding-right: 35px;
+}
+
+div img {
+    right: 4px;
+    height: 25px;
+    width: 25px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: transparent;
+    background-color: grey;
+    color: white;
+}
+
+
+/* Eliminar la 'X' que aparece al escribir en el input search */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
